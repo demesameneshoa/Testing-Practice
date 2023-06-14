@@ -327,7 +327,7 @@
     "zwitch": "^1.0.5"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",

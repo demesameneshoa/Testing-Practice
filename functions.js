@@ -6,4 +6,10 @@ function stringLength(string) {
   }
 }
 
-module.exports = stringLength;
+function reverseString(string) {
+  return string.split('').reverse().join('');
+}
+module.exports = {
+  stringLength,
+  reverseString,
+};
