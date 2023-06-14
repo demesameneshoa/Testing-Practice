@@ -38,3 +38,7 @@ describe('Testing Calculator Functions', () => {
   });
   expect(CalculatorObjectthree.division()).toBe(0);
 });
+
+test('Testing the string capitalizing function', () => {
+  expect(myFunctions.capitalizeString('sample')).toBe('Sample');
+});

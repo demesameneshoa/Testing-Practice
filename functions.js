@@ -37,8 +37,13 @@ class Calculator {
   }
 }
 
+function capitalizeString(string) {
+  return string[0].toUpperCase() + string.slice(1);
+}
+
 module.exports = {
   stringLength,
   reverseString,
   Calculator,
+  capitalizeString,
 };
